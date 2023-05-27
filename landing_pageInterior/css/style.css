@@ -2805,6 +2805,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0 auto;
   }
 
   .tabs__button {
@@ -2912,6 +2913,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 
   .tabs__item {
     padding-bottom: 65%;
+    border-radius: 0px;
   }
 
   .tabs__image-ibg {

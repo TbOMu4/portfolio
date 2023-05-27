@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230527100912">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="img/header/logo.svg" alt="logo">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Portfolio</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Pricing</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<div data-da=".menu__body, 522" class="actions-header__number">
+						<a href="tel:+3035550105">(303) 555-0105</a>
+					</div>
+					<div data-da=".menu__body, 522" class="actions-header__language ">
+						<select name="form[]" data-class-modif="form">
+							<option value="1" selected>EN</option>
+							<option value="2">UA</option>
+							<option value="3">FR</option>
+						</select>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__content content-main">
+						<h1 class="content-main__title">We create your space better</h1>
+						<div class="content-main__text">Our team creates comfortable spaces for our clients. We’ve been
+							designing your everyday life and work through great ideas since 1999.</div>
+						<button type="submit" class="content-main__button button">Get started</button>
+					</div>
+					<div class="main__image">
+						<picture>
+							<source srcset="img/main/main_image_mobile.jpg" type="image/jpg" media="(max-width:572px)">
+							<img src="img/main/main_image.jpg" alt="main_image">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__studio studio">
+				<div class="studio__container">
+					<h2 class="studio__title title">About
+						<span>Studio</span>
+					</h2>
+					<div data-showmore data-showmore-media="768,max" class="block">
+
+						<div data-showmore-content data-showmore-content="50" class="block__content ">
+							<div class="studio__text">
+								<p> Interiart is an award-winning architecture and interior design practice
+									based in NYC. We work internationally on projects of residential & commercial
+									interior
+									design
+									that require a creative approach. Our talented and experienced designers leverage
+									their
+									knowledge and expertise to create unique and comfortable interiors for you.</p>
+
+								<p> Our team knows that interior design can be stressful for the client and we do our
+									best to
+									make
+									it as easy as possible. We listen to your needs, ideas, and inputs. And most
+									importantly, we
+									make it exciting and enjoyable for our clients.</p>
+							</div>
+						</div>
+						<button hidden data-showmore-button type="button" class="block__more studio__button">READ
+							MORE</button>
+					</div>
+					<!-- <button type="submit" class="studio__button"></button> -->
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<h2 class="services__title title">Our <span>Services</span></h2>
+					<div class="services__items">
+						<article class="services__item item-services">
+							<div class="item-services__image">
+								<img src="img/services/interior_design.svg" alt="interior_design">
+							</div>
+							<h4 class="item-services__title">INTERIOR DESIGN</h4>
+							<div class="item-services__text">
+								Interior design services offer a vast variety of solutions for our clients’ homes and
+								offices.
+							</div>
+						</article>
+						<article class="services__item item-services">
+							<div class="item-services__image">
+								<img src="img/services/decorative_services.svg" alt="interior_design">
+							</div>
+							<h4 class="item-services__title">DECORATIVE SERVICES</h4>
+							<div class="item-services__text">
+								Our professional decorators will be happy to help you change your house’s inner look.
+							</div>
+						</article>
+						<article class="services__item item-services">
+							<div class="item-services__image">
+								<img src="img/services/space_planning.svg" alt="space_planning">
+							</div>
+							<h4 class="item-services__title">SPACE PLANNING</h4>
+							<div class="item-services__text">
+								We create better interior experiences through our space planning services.
+							</div>
+						</article>
+						<article class="services__item item-services">
+							<div class="item-services__image">
+								<img src="img/services/project_management.svg" alt="interior_design">
+							</div>
+							<h4 class="item-services__title">PROJECT MANAGEMENT</h4>
+							<div class="item-services__text">
+								We provide proper project management as it’s one of the main success factors in interior
+								design.
+							</div>
+						</article>
+					</div>
+					<div class="services__button">
+						<button type="submit" class="button">Free consultation</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__portfolio portfolio">
+				<div class="portfolio__container">
+					<h2 class="portfolio__title title">Our <span>Portfolio</span></h2>
+					<div data-showmore="items" data-tabs data-tabs-animate="300" class="tabs ">
+						<div class="tabs__blocks">
+							<nav data-tabs-titles class="tabs__navigation tabs-portfolio__navigation">
+								<button type="button" class="tabs__title  _tab-active">ALL</button>
+								<button type="button" class="tabs__title">COMERCIAL</button>
+								<button type="button" class="tabs__title">RESIDENTIAL</button>
+								<button type="button" class="tabs__title">OFFICE</button>
+								<button type="button" class="tabs__title">OTHER</button>
+							</nav>
+							<button hidden data-showmore-button data-da=".tabs__content,600,6" type="button" class="tabs__button">VIEW MORE</button>
+						</div>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body tabs-portfolio__body">
+								<ul data-showmore-content="2" class="tabs__list">
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/01.webp" type="image/webp"><img src="img/portfolio/01.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img src="img/portfolio/02.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/03.webp" type="image/webp"><img src="img/portfolio/03.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/04.webp" type="image/webp"><img src="img/portfolio/04.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/05.webp" type="image/webp"><img src="img/portfolio/05.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/06.webp" type="image/webp"><img src="img/portfolio/06.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/07.webp" type="image/webp"><img src="img/portfolio/07.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body tabs-portfolio__body">
+								<ul class="tabs__list">
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img src="img/portfolio/02.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/03.webp" type="image/webp"><img src="img/portfolio/03.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/05.webp" type="image/webp"><img src="img/portfolio/05.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/06.webp" type="image/webp"><img src="img/portfolio/06.jpg" alt="image"></picture>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body tabs-portfolio__body">
+								<ul class="tabs__list">
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/07.webp" type="image/webp"><img src="img/portfolio/07.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/08.webp" type="image/webp"><img src="img/portfolio/08.jpg" alt="image"></picture>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body tabs-portfolio__body">
+								<ul class="tabs__list">
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/01.webp" type="image/webp"><img src="img/portfolio/01.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img src="img/portfolio/02.jpg" alt="image"></picture>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body tabs-portfolio__body">
+								<ul class="tabs__list">
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/04.webp" type="image/webp"><img src="img/portfolio/04.jpg" alt="image"></picture>
+										</a>
+									</li>
+									<li class="tabs__item">
+										<a href="#" class="tabs__image-ibg">
+											<picture><source srcset="img/portfolio/05.webp" type="image/webp"><img src="img/portfolio/05.jpg" alt="image"></picture>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class=" page__pricing pricing">
+				<div class="pricing__container">
+					<h2 class="pricing__title title">Our <span>Pricing</span></h2>
+					<div class="pricing__items">
+						<article class="pricing__item item-pricing">
+							<div class="item-pricing__content">
+								<h4 class="item-pricing__title">Basic</h4>
+								<div class="item-pricing__blocks">
+									<p class="item-pricing__price">$25</p>
+									<p class="item-pricing__desc">per month</p>
+								</div>
+								<div class="item-pricing__text">Interior Design Project Discussion Space Planning Online
+									Consultation
+								</div>
+							</div>
+							<button type="submit" class="item-pricing__button button">buy now</button>
+						</article>
+						<article class="pricing__item item-pricing">
+							<div class="item-pricing__content">
+								<h4 class="item-pricing__title">Basic</h4>
+								<div class="item-pricing__blocks">
+									<p class="item-pricing__price">$25</p>
+									<p class="item-pricing__desc">per month</p>
+								</div>
+								<div class="item-pricing__text">Interior Design Project Discussion Space Planning Online
+									Consultation
+								</div>
+							</div>
+							<button type="submit" class="item-pricing__button button">buy now</button>
+						</article>
+						<article class="pricing__item item-pricing">
+							<div class="item-pricing__content">
+								<h4 class="item-pricing__title">Basic</h4>
+								<div class="item-pricing__blocks">
+									<p class="item-pricing__price">$25</p>
+									<p class="item-pricing__desc">per month</p>
+								</div>
+								<div class="item-pricing__text">Interior Design Project Discussion Space Planning Online
+									Consultation
+								</div>
+							</div>
+							<button type="submit" class="item-pricing__button button">buy now</button>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__people-say people-say">
+				<div class="people-say__container">
+					<h2 class="people-say__title title">What <span>People Say</span></h2>
+					<div class="people-say__slider swiper">
+						<div class="people-say__wrapper swiper-wrapper">
+							<div class="people-say__slide swiper-slide">
+								<div class="people-say__slide slide-people-say swiper-slide">
+									<div class="slide-people-say__items">
+										<div class="slide-people-say__item item-slide-people-say">
+											<div class="item-slide-people-say__block">
+												<div class="item-slide-people-say__image">
+													<picture><source srcset="img/people/annette_black.webp" type="image/webp"><img src="img/people/annette_black.png" alt=""></picture>
+												</div>
+												<div class="item-slide-people-say__column">
+													<p class="item-slide-people-say__name">Annette Black</p>
+													<p class="item-slide-people-say__profession">Merchandising Associate
+													</p>
+													<!-- <div class="item-slide-people-say__social social">
+														<a href="#"
+															class="item-slide-people-say__twitter social__twitter _icon-twitter"></a>
+														<a href="#"
+															class="item-slide-people-say__linkedin social__linkedin _icon-linkedin"></a>
+														<a href="#"
+															class="item-slide-people-say__twitter social__fecebook _icon-fecebook"></a>
+														<a>
+													</div> -->
+												</div>
+											</div>
+											<div class="item-slide-people-say__text">Convallis non proin ac
+												bibendum. At pharetra sed ultrices semper. Lectus et ornare
+												ultrices
+												urna in. Id non fringilla dignissim ac risus amet eget egestas
+												vestibulum. Aliquet etiam eget nulla nulla odio vel.</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="people-say__slide swiper-slide">
+								<div class="people-say__slide slide-people-say swiper-slide">
+									<div class="slide-people-say__items">
+										<div class="slide-people-say__item item-slide-people-say">
+											<div class="item-slide-people-say__block">
+												<div class="item-slide-people-say__image">
+													<picture><source srcset="img/people/marvin_mckinney.webp" type="image/webp"><img src="img/people/marvin_mckinney.png" alt="marvin_mckinney"></picture>
+												</div>
+												<div class="item-slide-people-say__column">
+													<p class="item-slide-people-say__name">Marvin McKinney</p>
+													<p class="item-slide-people-say__profession">Administrator</p>
+													<!-- <div class="item-slide-people-say__social social">
+														<a href="#"
+															class="item-slide-people-say__twitter social__twitter _icon-twitter"></a>
+														<a href="#"
+															class="item-slide-people-say__linkedin social__linkedin _icon-linkedin"></a>
+														<a href="#"
+															class="item-slide-people-say__twitter social__fecebook _icon-fecebook"></a>
+														<a>
+													</div> -->
+												</div>
+											</div>
+											<div class="item-slide-people-say__text">Leo viverra vestibulum amet,
+												scelerisque. Vitae, ultrices mi rhoncus porttitor nulla sed sodales.
+												Curabitur tellus massa, lacinia non at. Lacus, hac fermentum, viverra
+												tortor, eget. Eget egestas eget ultrices vitae..</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="people-say__slide swiper-slide">
+								<div class="people-say__slide slide-people-say swiper-slide">
+									<div class="slide-people-say__items">
+										<div class="slide-people-say__item item-slide-people-say">
+											<div class="item-slide-people-say__block">
+												<div class="item-slide-people-say__image">
+													<picture><source srcset="img/people/annette_black.webp" type="image/webp"><img src="img/people/annette_black.png" alt=""></picture>
+												</div>
+												<div class="item-slide-people-say__column">
+													<p class="item-slide-people-say__name">Annette Black</p>
+													<p class="item-slide-people-say__profession">Merchandising Associate
+													</p>
+													<!-- <div class="item-slide-people-say__social social">
+														<a href="#"
+															class="item-slide-people-say__twitter social__twitter _icon-twitter"></a>
+														<a href="#"
+															class="item-slide-people-say__linkedin social__linkedin _icon-linkedin"></a>
+														<a href="#"
+															class="item-slide-people-say__twitter social__fecebook _icon-fecebook"></a>
+														<a>
+													</div> -->
+												</div>
+											</div>
+											<div class="item-slide-people-say__text">Convallis non proin ac
+												bibendum. At pharetra sed ultrices semper. Lectus et ornare
+												ultrices
+												urna in. Id non fringilla dignissim ac risus amet eget egestas
+												vestibulum. Aliquet etiam eget nulla nulla odio vel.</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="people-say__slide swiper-slide">
+								<div class="people-say__slide slide-people-say swiper-slide">
+									<div class="slide-people-say__items">
+										<div class="slide-people-say__item item-slide-people-say">
+											<div class="item-slide-people-say__block">
+												<div class="item-slide-people-say__image">
+													<picture><source srcset="img/people/marvin_mckinney.webp" type="image/webp"><img src="img/people/marvin_mckinney.png" alt="marvin_mckinney"></picture>
+												</div>
+												<div class="item-slide-people-say__column">
+													<p class="item-slide-people-say__name">Marvin McKinney</p>
+													<p class="item-slide-people-say__profession">Administrator</p>
+													<!-- <div class="item-slide-people-say__social social">
+														<a href="#"
+															class="item-slide-people-say__twitter social__twitter _icon-twitter"></a>
+														<a href="#"
+															class="item-slide-people-say__linkedin social__linkedin _icon-linkedin"></a>
+														<a href="#"
+															class="item-slide-people-say__twitter social__fecebook _icon-fecebook"></a>
+														<a>
+													</div> -->
+												</div>
+											</div>
+											<div class="item-slide-people-say__text">Leo viverra vestibulum amet,
+												scelerisque. Vitae, ultrices mi rhoncus porttitor nulla sed sodales.
+												Curabitur tellus massa, lacinia non at. Lacus, hac fermentum, viverra
+												tortor, eget. Eget egestas eget ultrices vitae..</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+						<div class="people-say__swiper-pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__question question">
+				<div class="question__container">
+					<h2 class="question__title title">Do you have <span>any question?</span></h2>
+					<button type="submit" class="question__button button">order a call</button>
+				</div>
+			</section>
+		</main>
+		<footer data-spollers="768.98,max" data-one-spoller data-spollers-speed="500" class="footer">
+			<div class="footer__container">
+				<div class="footer__blocks spollers">
+					<div class="footer__column">
+						<a href="#" class="footer__logo">
+							<img src="img/header/logo.svg" alt="logo">
+						</a>
+						<div class="footer__text">
+							We are one of the leading interior design and remodeling studios available for
+							all
+							of your residential and commercial interior design needs.
+						</div>
+						<div class="footer__social social">
+							<a href="#" class="footer__twitter social__twitter _icon-twitter"></a>
+							<a href="#" class="footer__linkedin social__linkedin _icon-linkedin"></a>
+							<a href="#" class="footer__twitter social__fecebook _icon-fecebook"></a>
+						</div>
+					</div>
+					<div class="footer__column spollers__item">
+						<button type="button" data-spoller class="footer__title spollers__title _icon-arrow-select">Navigation</button>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">About</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Services</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Portfolio</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Pricing</a></li>
+								<li class="menu-footer__item"><a href="#" class="menu-footer__link">Testemonials</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__column spollers__item">
+						<button type="button" data-spoller class="footer__title spollers__title _icon-arrow-select">CONTACTS</button>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<div class="menu-footer__label">ADRESS</div>
+									<a href="geo:QR6P+2C, Indianapolis, IN, Сполучені Штати Америки" class="menu-footer__link">3517
+										W.
+										Gray
+										St. Utica, Pennsylvania 57867 </a>
+								</li>
+								<li class="menu-footer__item">
+									<div class="menu-footer__label">EMAIL</div>
+									<a href="mailto:michelle.rivera@idstudio.com" class="menu-footer__link">michelle.rivera@idstudio.com</a>
+								</li>
+								<li class="menu-footer__item">
+									<div class="menu-footer__label">PHONES</div>
+									<a href="tel:8085550111|3035550105" class="menu-footer__link">(808) 555-0111 or (303)
+										555-0105</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__block">
+					<p>© 2023 id Studio. All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230527100912"></script>
+</body>
+
+</html>
